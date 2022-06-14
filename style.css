@@ -1,0 +1,69 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url("./fon.jpeg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 0 auto;
+    line-height: 24px;
+    font: bold 16px Verdana, sans-serif;
+}
+section{
+    padding-top: 20px;
+}
+a{
+    color: inherit;
+    outline: none;
+    text-decoration: none;
+}
+.header__list{
+    display: flex;
+    list-style: none;
+
+}
+.header__item{
+    color: #255b25;
+}
+.header__item:not(:last-child){
+    margin-right: 25px;
+
+}
+.title{
+    color: rgba(132, 9, 70, 0.914);
+    font-size: 36px;
+    text-align: justify;
+}
+.photo {
+    max-width: 300px;
+    width: 100%;
+    height: 100%;
+}
+.conteiner {
+max-width: 1800px;
+padding: 0 80px;
+margin: 0 auto;
+}
+
+.background{
+    background-color: rgba(255, 0, 255, 0.1);
+}
+
+.footer__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__link img{
+    width: 100px;
+}
+.footer__link{
+    margin: 0;
+    padding: 0;
+    margin-right: 20px;
+}
+.footer__text{
+    margin: 0;
+}
